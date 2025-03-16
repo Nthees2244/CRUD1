@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping CRUD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Online Shopping</h1>
+
+        <!-- Product Form -->
+        <div class="form-container">
+            <input type="text" id="productName" placeholder="Product Name">
+            <input type="number" id="productPrice" placeholder="Price">
+            <input type="text" id="productDesc" placeholder="Product Description">
+            <input type="text" id="productImage" placeholder="Image URL">
+            <button id="addProductButton">Add Product</button>
+        </div>
+
+        <!-- Product List -->
+        <div class="product-list">
+            <h2><b>Product List</b></h2>
+            <ul id="productList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
